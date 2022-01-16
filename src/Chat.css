@@ -1,0 +1,122 @@
+.chat {
+	flex: 0.5 1;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+	border: 2px solid black;
+	background: url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-018.jpg');
+}
+
+.chat__container {
+	flex: 0.7 1;
+	flex-grow: 1;
+	overflow-y: auto;
+	height: 95%;
+	width: 95%;
+	text-align: center;
+	background-color: #414960;
+	border-radius: 20px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.chat__messages {
+	/* margin-top: 70px; */
+	/* overflow-y: auto; */
+	bottom: 0;
+	background-color: #414960;
+	height: 88.68%;
+	object-fit: contain;
+	display: flex;
+	flex-direction: column;
+}
+
+.chatMesssages__text {
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #414960;
+	overflow-y: scroll !important;
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	/* overflow-y: scroll; */
+}
+.chatMessages__input {
+	width: 100%;
+	display: flex;
+	/* margin-bottom: 20px; */
+	object-fit: contain;
+}
+.profile__header__avatar {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	width: 200px !important;
+	height: 200px !important;
+}
+
+.profile__info{
+	display: flex;
+	/* margin: 10px; */
+	padding:0 10px;
+	/* justify-content: space-between; */
+
+}
+
+.profile__header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.chat__HeaderLeft {
+	display: flex;
+	flex: 1;
+	cursor: pointer;
+	align-items: center;
+}
+
+ 
+.chat__HeaderLeft > p > .MuiSvgIcon-root {
+	font-size: 14px;
+	margin-top: 1px;
+	margin-left: 2px;
+	color: green;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.chat__HeaderLeft > p{
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.chat__Header {
+	background-color: #414960;
+	border-bottom: 1px solid gray;
+	z-index: 1;
+	position: sticky;
+	top: 0;
+	color: white;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.chat__HeaderRight > .MuiSvgIcon-root {
+	padding: 0 15px;
+}
+
+.header__button{
+	color: white;
+	margin-right: 0 10px;
+}
+
+.chat__avatar{
+	height: 60px !important;
+	width: 60px !important	;
+	margin-right: 10px !important;
+}

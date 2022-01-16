@@ -1,0 +1,53 @@
+
+
+.friends__search {
+	margin-left: 50px;
+	margin-right: 5px;
+	/* margin: 30px; */
+	display: flex;
+	align-items: center;
+	padding: 7px;
+	border-radius: 5px;
+	width: 100%;
+	background-color: #414960;
+
+	/* border: 1px solid; */
+	/* width: 100%; */
+}
+
+.friends__search > .MuiSvgIcon-root {
+	color:white;
+}
+
+.friends__search > input {
+	flex: 1;
+	border: none;
+	outline: none;
+	background: transparent;
+	color:white;
+
+}
+
+hr {
+	margin-right: 5px;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 0.1px solid #cecece;
+	opacity: 0.2;
+}
+
+
+
+.friends__header{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	position: sticky;
+	top: 0;
+	background: #292F47;
+	border-bottom: 1px solid black;
+}
+
+
+

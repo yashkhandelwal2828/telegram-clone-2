@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+.app {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #1a1e2a;
+	height: 100vh;
+	overflow-y: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__right {
+	flex: 0.8;
+	min-width: 400px;
+	overflow-x: scroll;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__middle {
+	flex: 0.3;
+	max-width: 418px;
+	/* background-color: primary; */
+	background-color: #292f47;
+	height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* @media only screen and (max-width: 500px) {
+	.app__left {
+		display: none;
+	}
+	.app__middle {
+		flex: 0;
+		 
+	}
+	.app__right {
+		flex: 1;
+		flex-grow: 1;
+	}
+}
+ */
+
+/* Individual item */
+.bm-item {
+	display: inline-block;
+
+	/* Our sidebar item styling */
+	text-decoration: none;
+	margin-bottom: 10px;
+	color: #d1d1d1;
+	transition: color 0.2s;
 }
 
-.App-link {
-  color: #61dafb;
+/* Change color on hover */
+.bm-item:hover {
+	color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+	position: fixed;
+	width: 25px;
+	height: 20px;
+	left: 12px;
+	top: 18px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+	background: #ffffff;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+	height: 24px;
+	width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+	background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+	background: #1a1e2a;
+	padding: 2.5em 1.5em 0;
+	font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+	fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+	color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+	background: rgba(0, 0, 0, 0.3);
+	top: 0;
+}
+
+.bm-menu-wrap {
+	top: 0;
 }

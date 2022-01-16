@@ -3,12 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.57",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "AsyncStorage": "^0.1.5",
+    "emoji-mart": "^3.0.0",
+    "firebase": "^7.18.0",
+    "fuse.js": "^6.4.1",
     "react": "^16.13.1",
+    "react-burger-menu": "^2.9.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-flip-move": "^3.0.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-scroll": "^1.8.1",
+    "react-scroll-button": "^1.1.2",
+    "react-uuid": "^1.0.2",
+    "uuid": "^8.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
